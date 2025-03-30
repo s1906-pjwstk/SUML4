@@ -22,7 +22,7 @@ def main():
     left, right = st.columns(2)
     prediction = st.container()
 
-    st.image("https://i.kym-cdn.com/entries/icons/mobile/000/026/489/crying.jpg")  # grafika
+    #st.image("https://i.kym-cdn.com/entries/icons/mobile/000/026/489/crying.jpg")  # grafika
 
     with overview:
         st.title("Predykcja przeżycia pasażera Titanica")
