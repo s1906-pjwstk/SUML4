@@ -1,11 +1,13 @@
 import streamlit as st
+from transformers import pipeline
+
 import pickle
 from datetime import datetime
 startTime = datetime.now()
 # import znanych nam bibliotek
 
-import pathlib
-from pathlib import Path
+#import pathlib
+#from pathlib import Path
 #temp = pathlib.PosixPath
 #pathlib.PosixPath = pathlib.WindowsPath
 filename = "model.sv"
