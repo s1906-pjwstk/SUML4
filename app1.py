@@ -1,6 +1,4 @@
 import streamlit as st
-from transformers import pipeline
-
 import pickle
 from datetime import datetime
 startTime = datetime.now()
