@@ -6,9 +6,15 @@ startTime = datetime.now()
 
 #import pathlib
 #from pathlib import Path
-
 #temp = pathlib.PosixPath
 #pathlib.PosixPath = pathlib.WindowsPath
+import sys
+import pathlib
+
+if sys.platform.startswith("win"):
+    # Zmiana zachowania tylko w systemie Windows (choć zazwyczaj nie jest to konieczne)
+    pathlib.PosixPath = pathlib.WindowsPath
+
 
 filename = "model.sv"
 model = pickle.load(open(filename, 'rb'))
