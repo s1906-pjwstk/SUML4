@@ -22,7 +22,7 @@ def main():
     left, right = st.columns(2)
     prediction = st.container()
 
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/1280px-RMS_Titanic_3.jpg")  # grafika
+    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Titanic.jpg/1280px-Titanic.jpg")  # grafika
 
     with overview:
         st.title("Predykcja przeżycia pasażera Titanica")
